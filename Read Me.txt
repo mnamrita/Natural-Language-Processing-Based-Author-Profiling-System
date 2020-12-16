@@ -1,0 +1,19 @@
+# AI-project--Inferring-Characteristic-Traits-of-An-author-given-his-or-her-work
+1.This   project   presents   a   method   to   predict   the   characteristic   traits   of   an   author   of   a   given   book.  
+Characteristic   traits   -   like   gender,   race,   age   of   the   author   at   the   time   of   publishing,   the   genre   
+of   the   book,   and   other   socioeconomic   and   psychological   factors   -   which   influence   the   content   and   style   of 
+ writing   of   an   author   can   be   predicted   given   his/her   work.   Multiple   feature   vectors(tf-idf,   n-gram,   
+POS   tagging)   were   extracted   from   texts   using   preprocessing   techniques   (stopword   removal,   stemming,   lemmatization) 
+  and   a   comparative   performance   study   for   every   technique   was   analyzed   by   applying   six   classi cation   methods 
+  (namely   Naïve   Bayes,   SVM   using   gradient   descent,   k-NN,   Random   Forest,   Passive   Aggressive,   Perceptron).   These 
+  analytic   studies   were   performed   with   the   aid   of   the   sklearn   machine   learning   library   and   the   Natural   
+Language   Toolkit.   The   performance   of   the   classifiers   was   further   compared   for   data   with   and   without 
+preprocessing. This project focuses on predicting two traits- the gender and age of the author.
+
+2.The code author_profiling_pan_data.py performs author profiling on the PAN 2013 DATASET.
+
+3. The code author_profiling_books.py performs author profiling for a dataset of ebooks.
+
+4. The paper Inferring Characteristic Traits of an Author using Text Analytics _final.pdf describes the project in detail.
+
+5.This project was done in a group of 4.
